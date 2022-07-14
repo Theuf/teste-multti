@@ -3,8 +3,7 @@
 describe('home page', ()=>{
   
   it('realizar login', ()=>{
-    cy.viewport(1366, 660)
-    cy.visit('https://app-hml.contabilhub.com.br/home')
+    cy.visit('/')
     cy.get('p[class="login-description-page"]').should('have.text','Acesso a plataforma')
     cy.get('input[placeholder="seu e-mail"]').type('usuariotestes@multti.com')
     cy.get('input[placeholder="sua senha"]').type('123456')
@@ -12,8 +11,7 @@ describe('home page', ()=>{
   })
 
   it('filtragem nfs', ()=>{
-    cy.viewport(1366, 660)
-      cy.visit('https://app-hml.contabilhub.com.br/home')
+      cy.visit('/')
       cy.get('p[class="login-description-page"]').should('have.text','Acesso a plataforma')
       cy.get('input[placeholder="seu e-mail"]').type('usuariotestes@multti.com')
       cy.get('input[placeholder="sua senha"]').type('123456')
