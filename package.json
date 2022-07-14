@@ -1,0 +1,22 @@
+{
+  "name": "teste-multti",
+  "version": "1.0.0",
+  "description": "Teste projeto multti",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Theuf/teste-multti.git"
+  },
+  "author": "Matheus Marcena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Theuf/teste-multti/issues"
+  },
+  "homepage": "https://github.com/Theuf/teste-multti#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
